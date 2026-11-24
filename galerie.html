@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie | Aero Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="window">
+
+    <!-- ========== ANTET ========== -->
+    <header>
+      <div class="title-bar">
+        <h1 class="site-name">Aero Portfolio Maculetchi Artiom</h1>
+        <div class="window-buttons">
+          <span>&#8211;</span>
+          <span>&#9633;</span>
+          <span class="btn-close">&#10005;</span>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <a class="round-btn" href="despre.html" title="Pagina anterioara">&#8592;</a>
+        <a class="round-btn" href="contact.html" title="Pagina urmatoare">&#8594;</a>
+        <div class="address-bar">Portofoliu &#9656; Galerie</div>
+        <div class="search-box">Cauta <span><img class="ico" src="images/icons/viewmag.png" alt=""></span></div>
+      </div>
+
+      <p class="favorites"><img class="ico" src="images/icons/clock.png" alt=""> Vizitate recent &nbsp; <img class="ico" src="images/icons/bookmark.png" alt=""> Marcaje &nbsp; <img class="ico" src="images/icons/laptop_battery.png" alt=""> Salvari rapide</p>
+
+      <nav class="tabs">
+        <ul>
+          <li><a href="index.html"><img class="ico" src="images/icons/kfm_home.png" alt=""> Acasa</a></li>
+          <li><a href="despre.html"><img class="ico" src="images/icons/kuser.png" alt=""> Despre</a></li>
+          <li><a href="galerie.html" class="active"><img class="ico" src="images/icons/kview.png" alt=""> Galerie</a></li>
+          <li><a href="contact.html"><img class="ico" src="images/icons/email.png" alt=""> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="layout">
+
+      <!-- ========== BARA LATERALA ========== -->
+      <aside class="sidebar">
+        <img class="avatar" src="images/avatar.jpg" alt="Avatar de profil">
+        <h2 class="profile-name">[Numele Tau]</h2>
+        <p class="profile-role">Junior Software Developer</p>
+        <ul class="status-list">
+          <li><img class="ico" src="images/icons/apply.png" alt=""> status: <span class="green">caut job part-time</span></li>
+          <li><img class="ico" src="images/icons/database.png" alt=""> C# · SQL · HTML/CSS</li>
+          <li><img class="ico" src="images/icons/locale.png" alt=""> invat limba japoneza</li>
+          <li><img class="ico" src="images/icons/kworldclock.png" alt=""> Chisinau, Moldova</li>
+        </ul>
+        <div class="social">
+          <a href="https://github.com/" target="_blank" title="GitHub"><img src="images/icons/konsole.png" alt="GitHub"></a>
+          <a href="https://instagram.com/" target="_blank" title="Instagram"><img src="images/icons/camera.png" alt="Instagram"></a>
+          <a href="contact.html" title="E-mail"><img src="images/icons/email.png" alt="E-mail"></a>
+        </div>
+      </aside>
+
+      <!-- ========== CONTINUTUL PRINCIPAL ========== -->
+      <main class="content">
+        <h2 class="page-title">Galerie</h2>
+        <p>Proiectele la care am lucrat si lucrurile care ma inspira in afara programarii.</p>
+
+        <div class="gallery">
+
+          <article class="card">
+            <img src="images/salon.jpg" alt="Fereastra aplicatiei Beauty Salon">
+            <div class="card-body">
+              <span class="tag">C# · MySQL</span>
+              <h3>Beauty Salon Management</h3>
+              <p>Aplicatie Windows Forms pentru clienti, specialisti, servicii si programari.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/facility.jpg" alt="Cladiri si baze de date">
+            <div class="card-body">
+              <span class="tag">SQL Server · MongoDB</span>
+              <h3>CWA.FacilityManager</h3>
+              <p>Proiect C# pentru administrarea cladirilor, cu doua tipuri de baze de date.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/api.jpg" alt="Scut cu cheie, simbol al autentificarii">
+            <div class="card-body">
+              <span class="tag">JWT · Swagger</span>
+              <h3>EmployeeAPI</h3>
+              <p>API pentru angajati, cu autentificare JWT, autorizare si teste xUnit.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/winforms.jpg" alt="Grafic cu parabola si hiperbola">
+            <div class="card-body">
+              <span class="tag">Windows Forms</span>
+              <h3>Aplicatii scolare</h3>
+              <p>Inventar, divizori, tabla inmultirii, grafice de functii si aplicatii cu Timer.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/japan.jpg" alt="Muntele, soarele si o poarta torii">
+            <div class="card-body">
+              <span class="tag">日本語</span>
+              <h3>Japonia</h3>
+              <p>Invat hiragana, katakana si kanji. Visul meu este o universitate japoneza.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/calisthenics.jpg" alt="Silueta in stand pe maini langa o bara">
+            <div class="card-body">
+              <span class="tag">Sport</span>
+              <h3>Calisthenics si sprint</h3>
+              <p>Handstand, tractiuni, box si sprint – imi imbunatatesc timpul la 50 si 100 m.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/gaming.jpg" alt="Controller de joc">
+            <div class="card-body">
+              <span class="tag">Hobby</span>
+              <h3>Anime si gaming</h3>
+              <p>Studio Ghibli, Danganronpa, muzica indie si cultura alternativa.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="images/plants.jpg" alt="Planta in ghiveci si o pisica neagra">
+            <div class="card-body">
+              <span class="tag">Acasa</span>
+              <h3>Plante si pisici</h3>
+              <p>Gradinarit, lectura si design interior – plus o mare slabiciune pentru pisici.</p>
+            </div>
+          </article>
+
+        </div>
+      </main>
+
+    </div>
+
+    <!-- ========== SUBSOL ========== -->
+    <footer class="footer">
+      <img class="os-logo" src="images/winxp.png" alt="Logo Windows XP">
+      <img class="os-logo" src="images/win7.png" alt="Logo Windows 7">
+      <a class="glossy-btn" href="despre.html">Despre mine</a>
+      <a class="glossy-btn green" href="galerie.html">Proiecte</a>
+      <div class="tray">&#9650; <img class="ico" src="images/icons/network.png" alt=""> <img class="ico" src="images/icons/laptop_battery.png" alt=""> <span>RO</span></div>
+      <p class="copyright">© 2026 [Numele Tau] · Realizat cu HTML si CSS</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
